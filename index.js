@@ -3,12 +3,11 @@ var katzDeliLine = [];
 function takeANumber (katzDeliLine) {
   var number = katzDeliLine.length + 1;
   katzDeliLine.push(number)
-return "Welcome, " + names + ". You are number " + number + " in line."
+return number
 }
 
 function nowServing(katzDeliLine) {
   var first = katzDeliLine.shift();
-
 
 if (katzDeliLine.length === 0 ) {
   return "There is nobody waiting to be served!";
