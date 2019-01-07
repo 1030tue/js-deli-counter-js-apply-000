@@ -18,6 +18,7 @@ else
 return "Currently serving " + first +"."
 }
 
+
 function currentLine(katzDeliLine) {
   var line = [];
   for (var i = 0; i < katzDeliLine.length ; i++) {
